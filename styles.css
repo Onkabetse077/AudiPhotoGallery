@@ -1,0 +1,48 @@
+/*Step 7*/
+*{
+    box-sizing: border-box;
+}
+
+/*Step 8,17,19*/
+.gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*Step 9*/
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f5f6f7;
+}
+
+/*Step 10*/
+.header{
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #c41515;
+    color: #fff;
+    text-align: center;
+    border-bottom: 4px solid #fdb347;
+}
+
+/*Step 11,12,13,14,15,16,18*/
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    padding: 20px 10px;
+     max-width:1400px;
+     margin:0 auto;
+     gap: 16px;
+}
+/*Step 20*/
+.gallery::after {
+    content: "";
+    width: 350px;
+  }
